@@ -1,4 +1,4 @@
-##Student Academic Risk System
+## Student Academic Risk System
 
 ## 1. Project Overview:
 The Student Academic Risk System is a Python-based project designed to analyze the academic performance of students using basic programming and rule-based decision-making.The system stores student academic information such as attendance, marks, quiz performance, assignment performance, and previous results. It calculates an overall performance score and uses predefined rules to identify the student's academic risk level.
@@ -120,6 +120,6 @@ The following operations can be tested:
    - Delete an existing student.
    - Try an invalid menu option.
    - Exit the program.
-Expected Result
+Expected Result-
 The program should correctly perform the selected operation and display an appropriate message or result.
 
