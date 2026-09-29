@@ -5,14 +5,11 @@ def addastudent():
 
     reg_no = input("Enter registration number: ")
     name = input("Enter Student name: ")
-
-    # performance stats, all as percentages
     attendance = float(input("Enter attendance percentage: "))
     marks = float(input("Enter marks percentage: "))
     quiz = float(input("Enter percentage received in Quiz: "))
     assignment = float(input("Enter percentage received in Assignment: "))
     previous_result = float(input("Enter Previous exam result percentage: "))
-
     student = {
         "reg_no": reg_no,
         "name": name,
@@ -41,7 +38,6 @@ def showstudents():
         print("Assignment:", student["assignment"])
         print("Previous Result:", student["previous_result"])
         print("------------------------")
-
 def searchstudent():
     print("\n--- Search Student ---")
     reg_no = input("Enter registration number: ")
