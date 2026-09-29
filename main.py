@@ -59,7 +59,7 @@ def class_summary():
 def main():
     while  True:
         print("\n_________________________________")
-        print("  STUDENT ACADEMIC RISK SYSTEM     ")
+        print("  STUDENT ACADEMIC RISK PREDICTOR    ")
         print("_________________________________")
         print("1. Add a Student")
         print("2. Show Students")
